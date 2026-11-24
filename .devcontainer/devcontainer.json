@@ -1,0 +1,10 @@
+{
+  "name": "FreightRates RAG Assistant",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": { "memory": "8gb" },
+  "forwardPorts": [7870, 8502],
+  "portsAttributes": {
+    "7870": { "label": "RAG API (Flask)" },
+    "8502": { "label": "RAG Chat (Streamlit)" }
+  }
+}
